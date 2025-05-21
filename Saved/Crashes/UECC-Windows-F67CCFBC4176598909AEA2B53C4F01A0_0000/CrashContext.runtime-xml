@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>CE7294684E51C71E271065A91E3AE3A0</ExecutionGuid>
+<CrashGUID>UECC-Windows-F67CCFBC4176598909AEA2B53C4F01A0_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>GPUCrash</CrashType>
+<ErrorMessage>GPU Crash dump Triggered</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage>Attended</CrashReporterMessage>
+<ProcessId>3932</ProcessId>
+<SecondsSinceStart>11806</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>true</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-Sandfall</GameName>
+<ExecutableName>SandFall-Win64-Shipping</ExecutableName>
+<BuildConfiguration>Shipping</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.4.4-56442+++streams+ProjectW-release</EngineVersion>
+<EngineCompatibleVersion>5.4.4-56442+++streams+ProjectW-release</EngineCompatibleVersion>
+<CommandLine> Sandfall</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>uk-UA</AppDefaultLocale>
+<BuildVersion>++streams+ProjectW-release-CL-56442</BuildVersion>
+<Symbols>**streams*ProjectW-release-CL-56442-Win64-Shipping</Symbols>
+<IsUERelease>true</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Clair Obscur Expedition 33/Sandfall/Binaries/Win64/</BaseDir>
+<RootDir>C:/Clair Obscur Expedition 33/</RootDir>
+<MachineId>EC21EED241E58D78B464419FA2242F44</MachineId>
+<LoginId>ec21eed241e58d78b464419fa2242f44</LoginId>
+<EpicAccountId>620c655f1f3d47299aa307cd77a06390</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>6</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+<Misc.CPUBrand>AMD Ryzen 5 3600 6-Core Processor              </Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3060 Ti</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.5854]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>34260156416</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>39360430080</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>19997937664</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>19647074304</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>5237866496</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>6354079744</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>10747863040</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>12109307904</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>2</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29fc21e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29fd9a7         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29cc423         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29d8df9         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29dcac0         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29e2aef         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</PCallStack>
+<PCallStackHash>35FDFA30FFB6A77D8940104083779A40A48412B1</PCallStackHash>
+<Threads><Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 2b875dc         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 2b9ccf0         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 3eb78de         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 3ebe56c         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 3ebe5ea         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 3ebf410         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 3ec76d4         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 6bbe172         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16304</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101d7fa         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1006180         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1088874         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11752</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101d7fa         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1006180         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1088874         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14964</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101d7fa         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1006180         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1088874         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1992</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101d7fa         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1006180         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1088874         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13816</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101d7fa         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1006180         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1088874         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17808</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101d7fa         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1006180         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1088874         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16588</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101d7fa         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1006180         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1088874         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>936</ThreadID>
+<ThreadName>Background Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101abc1         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1000b2f         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1005f9c         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + ffeb0b          
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101ca62         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 275d0d6         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29bb431         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 276d5c2         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 276abc9         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 276a714         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 10f84ad         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 10e065f         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 100a97e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101d4b3         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1006180         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1088874         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3696</ThreadID>
+<ThreadName>Background Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101d7fa         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1006180         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1088874         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10412</ThreadID>
+<ThreadName>Background Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101d7fa         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1006180         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1088874         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9532</ThreadID>
+<ThreadName>Background Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 108867e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19320</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 108867e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2360</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9db74           
+KERNELBASE               0x00007ffa06d70000 + 4d64e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 10887e1         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11012</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 31d30dc         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20112</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9db74           
+KERNELBASE               0x00007ffa06d70000 + 4d64e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 17c0e53         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8960</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 4402616         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12196</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + a0f24           
+ntdll                    0x00007ffa091d0000 + 64d6d           
+ntdll                    0x00007ffa091d0000 + 64c22           
+ntdll                    0x00007ffa091d0000 + 64933           
+KERNELBASE               0x00007ffa06d70000 + 6b25f           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1111d1c         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101c4ff         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101c33c         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11642b6         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1088874         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1036</ThreadID>
+<ThreadName>OutputDeviceRedirector</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 108867e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14940</ThreadID>
+<ThreadName>IOThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 108867e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18520</ThreadID>
+<ThreadName>IOThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 108867e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9528</ThreadID>
+<ThreadName>IOThreadPool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 108867e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7048</ThreadID>
+<ThreadName>IOThreadPool #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 207a722         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15980</ThreadID>
+<ThreadName>IoService</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 10f5b02         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18568</ThreadID>
+<ThreadName>IoDispatcher</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11b2e8f         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 6bef60e         
+VCRUNTIME140             0x00007ff9e9fc0000 + e7bf            
+ntdll                    0x00007ffa091d0000 + a28bf           
+ntdll                    0x00007ffa091d0000 + 52554           
+ntdll                    0x00007ffa091d0000 + 522a7           
+KERNELBASE               0x00007ffa06d70000 + 3af29           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11b4153         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29fc21e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29fd9a7         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29cc423         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29d8df9         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29dcac0         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29e2aef         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>16372</ThreadID>
+<ThreadName>RHIInterruptThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 29e2b05         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15428</ThreadID>
+<ThreadName>RHISubmissionThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101641b         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 2b94a7b         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1220</ThreadID>
+<ThreadName>RHIThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101641b         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101c891         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 275d0d6         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 278a4d3         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 276e4b7         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 2139635         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 274e51f         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 272fcab         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 2b74ac4         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 2b84d92         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 101643e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 2b94471         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 2b94ad7         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16980</ThreadID>
+<ThreadName>RenderThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9db74           
+KERNELBASE               0x00007ffa06d70000 + 4d64e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be97c         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 2b94ba7         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19836</ThreadID>
+<ThreadName>RTHeartBeat 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 108867e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17988</ThreadID>
+<ThreadName>PSOPrecompilePool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 108867e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19600</ThreadID>
+<ThreadName>PSOPrecompilePool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 108867e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14448</ThreadID>
+<ThreadName>PSOPrecompilePool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 108867e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12320</ThreadID>
+<ThreadName>PSOPrecompilePool #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 108867e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11936</ThreadID>
+<ThreadName>PSOPrecompilePool #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 108867e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16100</ThreadID>
+<ThreadName>PSOPrecompilePool #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1287eb1         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1287d8e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1268d55         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15948</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9db74           
+KERNELBASE               0x00007ffa06d70000 + 4d64e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be97c         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 3d9c6e1         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8404</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1f94a37         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12204</ThreadID>
+<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1f94c57         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 1f94b8e         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20076</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                    0x00007ffa091d0000 + 9d574           
+KERNELBASE               0x00007ffa06d70000 + 28a9e           
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bfd76         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 12eb672         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11be527         
+SandFall-Win64-Shipping  0x00007ff6cdac0000 + 11bbcd1         
+KERNEL32                 0x00007ffa07f10000 + 17374           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13784</ThreadID>
+<ThreadName>FAsyncPurge</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<DriveStats.Project.Name>C:/Clair Obscur Expedition 33/Sandfall/Binaries/Win64/</DriveStats.Project.Name>
+<DriveStats.Project.Type>SSD</DriveStats.Project.Type>
+<DriveStats.Project.FreeSpaceKb>40986428</DriveStats.Project.FreeSpaceKb>
+<DriveStats.PersistentDownload.Name>C:/Users/piryn/AppData/Local/Sandfall/Saved/PersistentDownloadDir</DriveStats.PersistentDownload.Name>
+<DriveStats.PersistentDownload.Type>SSD</DriveStats.PersistentDownload.Type>
+<DriveStats.PersistentDownload.FreeSpaceKb>40986428</DriveStats.PersistentDownload.FreeSpaceKb>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Breadcrumbs>false</RHI.Breadcrumbs>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>false</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 3060 Ti</RHI.AdapterName>
+<RHI.UserDriverVersion>576.02</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>32.0.15.7602</RHI.InternalDriverVersion>
+<RHI.DriverDate>4-12-2025</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>2489</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+<RHI.DREDHasBreadcrumbData>false</RHI.DREDHasBreadcrumbData>
+<RHI.DREDHasPageFaultData>false</RHI.DREDHasPageFaultData>
+</EngineData>
+<GameData>
+<__sentry>{
+	&quot;release&quot;: &quot;++streams+ProjectW-release-CL-56442:1.2.3.0&quot;,
+	&quot;environment&quot;: &quot;Release&quot;,
+	&quot;contexts&quot;:
+	{
+		&quot;Unreal Engine&quot;:
+		{
+			&quot;Engine version&quot;: &quot;5.4.4-56442&quot;,
+			&quot;Plugin version&quot;: &quot;0.22.0&quot;,
+			&quot;Is Marketplace version&quot;: &quot;False&quot;,
+			&quot;Configuration&quot;: &quot;Shipping&quot;,
+			&quot;Target Type&quot;: &quot;Game&quot;,
+			&quot;Engine mode&quot;: &quot;Game&quot;,
+			&quot;Is game&quot;: &quot;True&quot;,
+			&quot;Is standalone&quot;: &quot;True&quot;,
+			&quot;Is unattended&quot;: &quot;False&quot;,
+			&quot;Game name&quot;: &quot;SandFall&quot;
+		},
+		&quot;gpu&quot;:
+		{
+			&quot;name&quot;: &quot;NVIDIA GeForce RTX 3060 Ti&quot;,
+			&quot;vendor_name&quot;: &quot;NVIDIA&quot;,
+			&quot;driver_version&quot;: &quot;576.02&quot;
+		},
+		&quot;device&quot;:
+		{
+			&quot;cpu_description&quot;: &quot;AMD Ryzen 5 3600 6-Core Processor              &quot;,
+			&quot;number_of_cores&quot;: &quot;6&quot;,
+			&quot;number_of_cores_including_hyperthreads&quot;: &quot;12&quot;,
+			&quot;physical_memory_size_gb&quot;: &quot;32&quot;
+		}
+	},
+	&quot;tags&quot;:
+	{
+		&quot;Configuration&quot;: &quot;Shipping&quot;,
+		&quot;Target Type&quot;: &quot;Game&quot;,
+		&quot;Engine Mode&quot;: &quot;Game&quot;,
+		&quot;Is game&quot;: &quot;True&quot;,
+		&quot;Is standalone&quot;: &quot;True&quot;,
+		&quot;Is unattended&quot;: &quot;False&quot;
+	}
+}</__sentry>
+</GameData>
+</FGenericCrashContext>
